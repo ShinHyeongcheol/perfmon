@@ -1,0 +1,40 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/
+
+# NDK / native
+.externalNativeBuild/
+.cxx/
+
+# Signing & secrets
+*.jks
+*.keystore
+google-services.json
+secrets.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android Studio captures
+captures/
+
+# Log / temp
+*.log
