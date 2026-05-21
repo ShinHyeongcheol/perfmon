@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.oss.perfmon.ui.navigation.Routes
 
 @Composable
 fun HomeScreen(navController: NavController) {
@@ -53,7 +54,7 @@ fun HomeScreen(navController: NavController) {
                     modifier = Modifier.padding(top = 4.dp, bottom = 12.dp)
                 )
                 Button(
-                    onClick = { navController.navigate("monitor") },
+                    onClick = { navController.navigate(Routes.MONITOR) },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text("시작")
@@ -78,7 +79,7 @@ fun HomeScreen(navController: NavController) {
                     modifier = Modifier.padding(top = 4.dp, bottom = 12.dp)
                 )
                 Button(
-                    onClick = { navController.navigate("resmon") },
+                    onClick = { navController.navigate(Routes.RESMON) },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text("시작")
@@ -99,7 +100,7 @@ fun HomeScreen(navController: NavController) {
                     modifier = Modifier.padding(top = 4.dp, bottom = 12.dp)
                 )
                 Button(
-                    onClick = { navController.navigate("system") },
+                    onClick = { navController.navigate(Routes.SYSTEM) },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text("시작")
