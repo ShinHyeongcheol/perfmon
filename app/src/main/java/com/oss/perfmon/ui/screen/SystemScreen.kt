@@ -89,7 +89,7 @@ fun SystemScreen(
         }
 
         OutlinedButton(
-            onClick = { navController.popBackStack() },
+            onClick = { navController.navigateUp() },
             modifier = Modifier.align(Alignment.CenterHorizontally)
         ) {
             Text("돌아가기")

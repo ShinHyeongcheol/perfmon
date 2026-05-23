@@ -102,7 +102,7 @@ fun ResmonScreen(
         }
 
         OutlinedButton(
-            onClick = { navController.popBackStack() },
+            onClick = { navController.navigateUp() },
             modifier = Modifier
                 .padding(top = 16.dp)
                 .align(Alignment.CenterHorizontally)
